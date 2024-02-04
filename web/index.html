@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Комментарии</title>
+</head>
+<style>
+    comment-component {
+    --comment-background-color: #f5f5f5;
+    --comment-like-color: #ff4500;
+    --comment-send-btn-bg-color: #4CAF50;
+    --comment-send-btn-color: #fff;
+    --comment-border: 1px solid #ccc;
+}
+</style>
+<body>
+    <div id="comments-app">
+        <comment-component id="likeButton">Лайки</comment-component>
+        <comment-component id="likeButton">Второй пост</comment-component>
+    </div>
+
+    <script src="comment-component.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
